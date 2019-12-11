@@ -27,7 +27,7 @@
     "url": "https://github.com/jupyterlabab/lumino.git"
   },
   "scripts": {
-    "api": "api-extractor run --local --verbose",
+    "api": "api-extractor run --local",
     "build": "tsc --build",
     "clean": "rimraf lib",
     "docs": "typedoc --options tdoptions.json src",

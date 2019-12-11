@@ -28,7 +28,7 @@
     "url": "https://github.com/luminojs/lumino.git"
   },
   "scripts": {
-    "api": "api-extractor run --local --verbose",
+    "api": "api-extractor run --local",
     "build": "tsc --build",
     "build:test": "tsc --build tests && cd tests && webpack",
     "clean": "rimraf lib",
